@@ -3,8 +3,7 @@
 
 int main(int argc, char** argv)
 {
-	ProjectEulerProblemBase::RunProblem(3);
-	ProjectEulerProblemBase::RunProblem(4);
+	ProjectEulerProblemBase::RunProblem(5);
 
 	return 0;
 }
