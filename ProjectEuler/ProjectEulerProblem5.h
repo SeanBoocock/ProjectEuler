@@ -21,13 +21,15 @@ public:
 		: m_primesToTwenty(FactorArray{ 2, 3, 5, 7, 11, 13, 17, 19 })
 	{}
 
+	ProjectEulerProblem5& operator=(const ProjectEulerProblem5&) = delete;
+
 private:
 	FactorArray FindPrimeFactors(uint64_t toFactor)
 	{
 		FactorArray factorCountsToReturn = { 0 };
 		while (toFactor > 1)
 		{
-			for (uint64_t i = 0, end = m_primesToTwenty.size(); i != end && m_primesToTwenty[i] <= toFactor; ++i)
+			for (FactorArray::size_type i = 0, end = m_primesToTwenty.size(); i != end && m_primesToTwenty[i] <= toFactor; ++i)
 			{
 				const uint64_t potentialFactor = m_primesToTwenty[i];
 				if ((toFactor % potentialFactor) == 0)

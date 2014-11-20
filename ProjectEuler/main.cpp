@@ -1,9 +1,9 @@
 
 #include "Problems.h"
 
-int main(int argc, char** argv)
+int main()
 {
-	ProjectEulerProblemBase::RunProblem(5);
+	ProjectEulerProblemBase::RunProblem(6);
 
 	return 0;
 }
