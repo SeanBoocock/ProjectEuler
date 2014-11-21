@@ -1,9 +1,5 @@
 #pragma once
 
-#include <array>
-#include <cstdint>
-#include <iostream>
-
 #include "ProjectEulerProblem.h"
 
 class ProjectEulerProblem4 : ProjectEulerProblem<4>

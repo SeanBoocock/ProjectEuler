@@ -1,8 +1,5 @@
 #pragma once
 
-#include <array>
-#include <cstdint>
-#include <iostream>
 #include <numeric>
 
 #include "ProjectEulerProblem.h"

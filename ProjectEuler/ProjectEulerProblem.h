@@ -1,6 +1,7 @@
 #pragma once
 
 #include <array>
+#include <cstdint>
 #include <functional>
 #include <iostream>
 
@@ -22,7 +23,7 @@ public:
 	}
 
 protected:
-	static const unsigned int MaxProblemCount = 500;
+	static const uint64_t MaxProblemCount = 500;
 	typedef std::array<std::function<void()>, MaxProblemCount> ProblemArray;
 	static ProblemArray Problems;
 };

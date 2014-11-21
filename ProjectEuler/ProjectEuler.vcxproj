@@ -147,6 +147,7 @@
     <ClInclude Include="ProjectEulerProblem4.h" />
     <ClInclude Include="ProjectEulerProblem5.h" />
     <ClInclude Include="ProjectEulerProblem6.h" />
+    <ClInclude Include="ProjectEulerProblem7.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
