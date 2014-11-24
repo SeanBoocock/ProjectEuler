@@ -143,11 +143,14 @@
   <ItemGroup>
     <ClInclude Include="Problems.h" />
     <ClInclude Include="ProjectEulerProblem.h" />
+    <ClInclude Include="ProjectEulerProblem10.h" />
     <ClInclude Include="ProjectEulerProblem3.h" />
     <ClInclude Include="ProjectEulerProblem4.h" />
     <ClInclude Include="ProjectEulerProblem5.h" />
     <ClInclude Include="ProjectEulerProblem6.h" />
     <ClInclude Include="ProjectEulerProblem7.h" />
+    <ClInclude Include="ProjectEulerProblem8.h" />
+    <ClInclude Include="ProjectEulerProblem9.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
