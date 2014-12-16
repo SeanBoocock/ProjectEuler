@@ -9,4 +9,4 @@
 #include "ProjectEulerProblem9.h"
 #include "ProjectEulerProblem10.h"
 #include "ProjectEulerProblem11.h"
-
+#include "ProjectEulerProblem12.h"
