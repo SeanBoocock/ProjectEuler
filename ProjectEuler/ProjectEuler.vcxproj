@@ -146,6 +146,8 @@
     <ClInclude Include="ProjectEulerProblem10.h" />
     <ClInclude Include="ProjectEulerProblem11.h" />
     <ClInclude Include="ProjectEulerProblem12.h" />
+    <ClInclude Include="ProjectEulerProblem13.h" />
+    <ClInclude Include="ProjectEulerProblem14.h" />
     <ClInclude Include="ProjectEulerProblem3.h" />
     <ClInclude Include="ProjectEulerProblem4.h" />
     <ClInclude Include="ProjectEulerProblem5.h" />
