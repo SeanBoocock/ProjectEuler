@@ -13,3 +13,6 @@
 #include "ProjectEulerProblem13.h"
 #include "ProjectEulerProblem14.h"
 #include "ProjectEulerProblem15.h"
+#include "ProjectEulerProblem16.h"
+
+

@@ -3,7 +3,7 @@
 
 int main()
 {
-	ProjectEulerProblemBase::RunProblem(15);
+	ProjectEulerProblemBase::RunProblem(16);
 
 	return 0;
 }
