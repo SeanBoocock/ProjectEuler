@@ -14,5 +14,5 @@
 #include "ProjectEulerProblem14.h"
 #include "ProjectEulerProblem15.h"
 #include "ProjectEulerProblem16.h"
-
+#include "ProjectEulerProblem17.h"
 
