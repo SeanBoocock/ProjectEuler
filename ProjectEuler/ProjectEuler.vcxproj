@@ -151,6 +151,7 @@
     <ClInclude Include="ProjectEulerProblem15.h" />
     <ClInclude Include="ProjectEulerProblem16.h" />
     <ClInclude Include="ProjectEulerProblem17.h" />
+    <ClInclude Include="ProjectEulerProblem18.h" />
     <ClInclude Include="ProjectEulerProblem3.h" />
     <ClInclude Include="ProjectEulerProblem4.h" />
     <ClInclude Include="ProjectEulerProblem5.h" />
