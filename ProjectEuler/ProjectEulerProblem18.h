@@ -81,12 +81,7 @@ class ProjectEulerProblem18 : ProjectEulerProblem<18>
 		TreeArray tree{};
 		InitializeTree(tree);
 
-		uint32_t depth = 1;
-		uint32_t rowIndex = 1;
-		uint32_t nodeIndex = 1; // Base indexing off depth and row index
-
 		auto updateSumToNode = [](Node& visiting, const uint32_t sumToNode) { if (visiting.MaxSumToNode < sumToNode) { visiting.MaxSumToNode = sumToNode; }};
-
 		for (TreeArray::size_type row = 0, rowMax = 14, parentIdx = 0; row < rowMax; ++row)
 		{
 			for (TreeArray::size_type col = 0, colMax = row + 1; col < colMax; ++col, ++parentIdx)
@@ -99,7 +94,6 @@ class ProjectEulerProblem18 : ProjectEulerProblem<18>
 				updateSumToNode(leftChild, maxValue);
 				updateSumToNode(rightChild, maxValue);
 			}
-
 		}
 
 		// Iterate over last row and calculate max(MaxSumToNode + Value) over the nodes
